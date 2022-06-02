@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/filterlayoutlinear"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:backgroundTint="#00FFFFFF"
+    app:cardCornerRadius="25dp"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient2"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:text="@string/choosefilter"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="20dp"
+            android:orientation="horizontal"
+            android:paddingHorizontal="15dp"
+
+            >
+
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:layout_weight="1"
+                android:button="@drawable/forwardbutton"
+                android:buttonTint="#FFFFFF"
+                android:layoutDirection="rtl"
+                android:text="@string/People"
+                android:textColor="#191919"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/f1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <CheckBox
+                    android:id="@+id/checkBox4"
+                    style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:buttonTint="#FFFFFF"
+                    android:text="@string/shelter"
+                    android:textColor="#191919"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/checkBox5"
+                    style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:buttonTint="#FFFFFF"
+                    android:text="@string/food"
+                    android:textColor="#191919"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/checkBox6"
+                    style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:buttonTint="#FFFFFF"
+                    android:text="@string/personalcare"
+                    android:textColor="#191919"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/checkBox7"
+                    style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:buttonTint="#FFFFFF"
+                    android:text="@string/money"
+                    android:textColor="#191919"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_weight="1"
+
+            android:orientation="horizontal"
+            android:paddingHorizontal="15dp">
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:layout_weight="1"
+                android:button="@drawable/forwardbutton"
+                android:buttonTint="#FFFFFF"
+                android:layoutDirection="rtl"
+                android:text="@string/Animals"
+                android:textColor="#191919"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/f2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <CheckBox
+                    android:id="@+id/checkBox8"
+                    style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:buttonTint="#FFFFFF"
+                    android:text="@string/food"
+                    android:textColor="#191919"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/checkBox9"
+                    style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:buttonTint="#FFFFFF"
+                    android:text="@string/Adoption"
+                    android:textColor="#191919"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/checkBox10"
+                    style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:buttonTint="#FFFFFF"
+                    android:text="@string/shelter"
+                    android:textColor="#191919"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/checkBox11"
+                    style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:buttonTint="#FFFFFF"
+                    android:text="@string/Vet"
+                    android:textColor="#191919"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:orientation="horizontal"
+            android:paddingHorizontal="15dp">
+
+            <CheckBox
+                android:id="@+id/checkBox3"
+                style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:layout_weight="1"
+                android:button="@drawable/forwardbutton"
+                android:buttonTint="#FFFFFF"
+                android:layoutDirection="rtl"
+                android:text="@string/Events"
+                android:textColor="#191919"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/f3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <CheckBox
+                    android:id="@+id/checkBox12"
+                    style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:buttonTint="#FFFFFF"
+                    android:text="@string/Treeplanting"
+                    android:textColor="#191919"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/checkBox13"
+                    style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:buttonTint="#FFFFFF"
+                    android:text="@string/Helpaffectedareas"
+                    android:textColor="#191919"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/checkBox14"
+                    style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="#FFFFFF"
+                    android:text="@string/SeaCleaning"
+                    android:textColor="#191919"
+                    android:textStyle="bold"
+                    android:layout_marginVertical="5dp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox15"
+                    style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:buttonTint="#FFFFFF"
+                    android:text="@string/Litterpicking"
+                    android:textColor="#191919"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingHorizontal="25dp"
+            android:paddingBottom="15dp">
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="10dp"
+                android:backgroundTint="#2DEDE7E7"
+                android:text="@string/clear"
+                android:textColor="#000000"
+                app:strokeColor="#ff7844 "
+                app:strokeWidth="1dp" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="10dp"
+                android:backgroundTint="#ff7844 "
+                android:text="@string/applyfitler"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

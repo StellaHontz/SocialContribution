@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "152916569222",
+    "firebase_url": "https://socialcontribution-ae21f-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "socialcontribution-ae21f",
+    "storage_bucket": "socialcontribution-ae21f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152916569222:android:74fc51f09597e9ac5bf507",
+        "android_client_info": {
+          "package_name": "com.example.socialcontribution"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "152916569222-q24aodlfqo6ol6mukve9f3017634nph6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkMUi_dgfe8g4Afwllt8nKynfomNXXhn0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "152916569222-q24aodlfqo6ol6mukve9f3017634nph6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
